@@ -1,3 +1,10 @@
+
+*{
+  text-rendering: optimizeLegibility;
+}
+body{
+  font-family: Poppins,Arial,sans-serif;
+}
 .form-control {
   box-shadow: none !important;
 }
@@ -6,6 +13,35 @@
 }
 .pb-90{
   padding-bottom: 90px;
+}
+.ask-header {
+  position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translate(0px, -30px);
+	.btn {
+    background-color: #FB4F39;
+    border-radius: 32px;
+    color: #fff;
+    padding: 12px 30px;
+    border-color: transparent;
+    svg{
+    
+      fill: #fff;
+      margin-right: 6px;
+    }
+    &:hover{
+      color: #2a3539;
+      background-color: #f5f8f7;
+      border-color: #dee2e6 !important;
+      svg{
+   
+        fill: #2a3539;
+        margin-right: 6px;
+      }
+    }
+	}
 }
 
 .header {
@@ -70,6 +106,8 @@
   }
 }
 .hero-sec {
+  position: relative;
+  overflow: hidden;
   .hero-main-column {
     background-color: #e3f4f2;
     padding: 0px 30px;
@@ -272,6 +310,7 @@
       line-height: 48px;
       margin: 0;
       margin-bottom: 60px;
+      color: #fff;
   }
   .btn-light {
     background: #fff !important;
@@ -292,6 +331,23 @@
   background: #2a3539;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
+  .logo-column {
+    flex: 0 0 auto;
+    width: 16.666%;
+    padding: 0px 15px 20px;
+}
+.pera-2 {
+  margin-bottom: 30px;
+}
+.footer-logo-bar {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+ .pera-one {
+    color: #fff;
+    margin: 30px 0px;
+}
   padding: 80px 0px;
   .center-social{
     margin: 0px 30px;
@@ -377,6 +433,9 @@ padding-right: 0px !important;
     }
     }
   }
+  .contact-in-column {
+    border-radius: 22px;
+  }
     
     .footer {
      
@@ -386,7 +445,7 @@ padding-right: 0px !important;
   }
     .slider-sec {
       .bg-cards {
-       
+        border-radius: 22px;
         padding: 15px;
         h3 {
           font-size: 30px;
@@ -428,6 +487,19 @@ padding-right: 0px !important;
     
   }
   @media (max-width: 767px) {
+
+.footer {
+	.logo-column {
+		flex: 0 0 auto;
+		width: 20%;
+		padding: 0px 5px 10px;
+	}
+ .pera-one {
+    margin: 20px 0px;
+}
+}
+
+    
     .footer {
       .center-social {
       margin: 0px 15px;
@@ -440,11 +512,26 @@ padding-right: 0px !important;
       padding-bottom: 40px;
     }
     .hero-sec{ 
+      .hero-header {
+        text-align: center;
+    }
+      .hero-main-column {
+       
+        border-radius: 0px 0px 48px 48px;
+      }
       h1 {
-      font-size: 52px;
-      line-height: 62px;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 40px;
+ 
    
   }
+  .image{
+    margin-bottom: -50px;    
+  }
+  .content {
+    text-align: center;
+}
   
 }
 .sub-heading{

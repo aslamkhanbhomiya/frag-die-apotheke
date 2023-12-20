@@ -412,6 +412,28 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <div className="text-center ask-header d-block d-lg-none">
+              <Link href="/" className="btn">
+              <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24px"
+                      height="24px"
+                      viewBox="0 0 24 24"
+                      className="icon icon-chat"
+                    >
+                      <g className="fill" fillRule="nonzero">
+                        <path d="M12.0584874 1.99994663C8.54611948 1.98599519 5.28553207 3.8067863 3.46063912 6.79980506 1.6353981 9.79339468 1.51286548 13.5226968 3.13769369 16.6293366l.17669657.3444274c.02955232.0556012.03409741.1032415.02042432.1473426-.2524071.6654074-.47951429 1.4030688-.66074276 2.1525075a1.00000035 1.00000035 0 0 0-.02801534.2350443c0 .9061675.52230439 1.5788362 1.51149105 1.5569449l.19350775-.0232807c.72594084-.160308 1.44082062-.3668221 2.14025353-.6182834l.09048993.0190544c.01661475.0043943.034092.0098971.05110747.0168576l.58707195.3368489c.00958549.0061726.02075009.0135805.03749699.0246924-.00027531.0035537.00160961.0067997.0105615.0110978l.05075599.0154837c3.67470496 1.9322657 8.16261736 1.3991788 11.28098406-1.3400641 3.1189418-2.7398359 4.2202468-7.1179958 2.7677789-11.00438383-1.4522617-3.88584651-5.1558361-6.47299333-9.3090682-6.50367944Zm-.3011946 2.00410178L12.045 3.999c3.3232878.02547171 6.287251 2.09596019 7.4491172 5.20478921 1.1616523 3.10824899.280859 6.60978029-2.2142717 8.80162899-2.495877 2.1924341-6.0887128 2.6192013-9.03023513 1.0724642-.14352534-.0754698-.30325089-.1149042-.46540887-.1149042l.03208881-.0027818c.05133678-.0108641.02872815-.0519523-.01257164-.0954299L7.679 18.755l-.06402597-.0347634c-.06232889-.0333811-.11830983-.0621093-.16936165-.0867088-.53262392-.2198732-1.06109282-.2515132-1.55814022-.1146259l-.40867723.1400528c-.13422885.0442868-.26664461.0862348-.39779865.1260195L4.862 18.848l.02961851-.1006803c.10134687-.3291785.21279956-.6552487.33421225-.9777332.19127114-.6109628.13399412-1.211323-.13974226-1.72362l-.17256402-.3366103c-1.30313542-2.4916353-1.20514388-5.4740254.25473704-7.86838557C6.57810113 5.52868356 9.0595523 4.09039486 11.7572928 4.00404841Z" />
+                        <path
+                          d="M8 11c.55228475 0 1 .44771525 1 1s-.44771525 1-1 1-1-.44771525-1-1 .44771525-1 1-1Zm4 0c.55228475 0 1 .44771525 1 1s-.44771525 1-1 1-1-.44771525-1-1 .44771525-1 1-1Zm4 0c.55228475 0 1 .44771525 1 1s-.44771525 1-1 1-1-.44771525-1-1 .44771525-1 1-1Z"
+                          opacity=".5"
+                        />
+                      </g>
+                    </svg>
+                    <span>
+                    Ask a question!
+                    </span>
+              </Link>
+            </div>
             <div className=" d-none d-lg-flex hero-menu-bar justify-content-center">
               <ul className="navbar-nav d-flex flex-row custom-links-bar align-items-center ">
                 <li className="nav-item">
@@ -2141,6 +2163,51 @@ export default function Home() {
               
               </div>
 
+            </div>
+            <div className="col-12">
+              <div className="footer-content text-center text-lg-start">
+                <p className="pera-one">FRAG DIE APOTHEKE works with a team of pharmacists. We offer you independent and comprehensive advice on all aspects of health and illness. Our advice does not replace professional advice from a doctor and may not be used as a basis for independent diagnosis and treatment.</p>
+             <p className="pera-2 text-white" >Our service is free of charge for you. To make this possible we are supported by:</p>
+              <div className="d-flex footer-logo-bar">
+                <div className="logo-column">
+                  <img src="./image/LOGO-example.png" className="img-fluid" alt="" />
+                </div>
+                <div className="logo-column">
+                  <img src="./image/LOGO-example.png" className="img-fluid" alt="" />
+                </div>
+                <div className="logo-column">
+                  <img src="./image/LOGO-example.png" className="img-fluid" alt="" />
+                </div>
+                <div className="logo-column">
+                  <img src="./image/LOGO-example.png" className="img-fluid" alt="" />
+                </div>
+                <div className="logo-column">
+                  <img src="./image/LOGO-example.png" className="img-fluid" alt="" />
+                </div>
+                <div className="logo-column">
+                  <img src="./image/LOGO-example.png" className="img-fluid" alt="" />
+                </div>
+                <div className="logo-column">
+                  <img src="./image/LOGO-example.png" className="img-fluid" alt="" />
+                </div>
+                <div className="logo-column">
+                  <img src="./image/LOGO-example.png" className="img-fluid" alt="" />
+                </div>
+                <div className="logo-column">
+                  <img src="./image/LOGO-example.png" className="img-fluid" alt="" />
+                </div>
+                <div className="logo-column">
+                  <img src="./image/LOGO-example.png" className="img-fluid" alt="" />
+                </div>
+                <div className="logo-column">
+                  <img src="./image/LOGO-example.png" className="img-fluid" alt="" />
+                </div>
+
+
+
+
+              </div>
+              </div>
             </div>
           </div>
           <hr />
